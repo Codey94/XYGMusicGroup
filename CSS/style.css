@@ -1,6 +1,6 @@
 .callout-container {
     height: 100vh; 
-    background: url("../images/Whiskey-glass.jpg") no-repeat bottom right fixed; 
+    background: url("/IMG/Bridge\ road\ centre.jpg") no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,4 +10,13 @@
     align-items: center;
     justify-content: center;
 
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: lightgoldenrodyellow;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
 }
