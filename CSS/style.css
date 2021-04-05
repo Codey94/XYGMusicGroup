@@ -1,6 +1,5 @@
 .callout-container {
-    background: url("/IMG/Bridge\ road\ centre\ 2.jpg") no-repeat center fixed;
-    height: 100vh; 
+    position: relative; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,9 +14,15 @@
 .jumbotron {
     background-color: transparent;
     color: lightgoldenrodyellow;
+    padding-left: 130px;
+    padding-bottom: px;
 }
 
 body {
     font-family: 'Lato', sans-serif;
-    background: url("/IMG/Bridge\ road\ centre\ 2.jpg") no-repeat center fixed;
+    background: url("/IMG/Bridge\ road\ centre\ 2.jpg") no-repeat bottom fixed;
+    background-size: cover;
+    width: fit-content;
+    height: auto;
+    padding-top: px;
 }
