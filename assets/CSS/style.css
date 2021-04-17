@@ -1,31 +1,96 @@
-.social-links li i a {
-    height: 32px;
-    width: 32px;
+/*-------------------------------------------------Navbar */
+
+.list-inline li {
+    display: inline;
+}
+
+.nav-link {
+    color: rgba(241, 224, 124, 0.877);
+}
+
+/*-------------------------------------------------Header */
+
+.title-style {
+    font-weight: 500;
+    font-family: "roboto:700", sans-serif;
+    font-size: 75px;
+}
+
+.hero-image-bg {
+     background: url(/IMG/Album\ cover\ wall\ right\ copped.jpg);
+    background-position-y: -650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.hero-image {
+    background: url(/IMG/ealing\ studios\ skip\ with\ logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.hero-image-2 {
+    background: url(/IMG/Salute\ Logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: rgba(241, 224, 124, 0.877);
+    position: relative;
+    text-align: left;
+    
 }
 
 /*-------------------------------------------------Footer */
 
-.footer-bg {
-    height: 50vh;
+#footer-details {
+    font-family: "roboto";
+    min-height: 240px;
     width: 100%;
     margin: 0;
-    background-color: rgb(51, 49, 49);
-    position: fixed;
+    position: relative;
+    color: rgba(241, 224, 124, 0.877);
 }
 
-.callout-container {
-    position: relative; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer h5 {
+    padding-top: 10px;
+    margin-top: 5px;
 }
 
-.jumbotron {
-    background-color: rgb(80, 80, 80);
-    color: rgb(176, 176, 177);
+.footer-bg {
+    background-color: black;
+}
+
+.social-links li a i {
+    color: rgba(202, 145, 21, 0.925);
+    position: relative;
+
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------------------------Music */
+
+.music-heading {
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
 }
