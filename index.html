@@ -16,144 +16,47 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
-    <ul class="nav justify-content-center">
+<header>
+    <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="exclusive.html">Exclusive Content</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Merch</a>
+    <a class="nav-link" href="#">Link</a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
   </li>
 </ul>
-</nav>
-
-<header>
-<!-- Header -->
-<div class="container-fluid hero-image-bg">
-    <div class="row">
-        <div class="col-sm-8">
-            <div class="jumbotron text-left">
-                <h1 class="title-style">XYG MusicGroup</h1>
-                <h2>Fresh New Young Talent!</h2> 
-                    <span class="d-inline d-sm-none"><br></span>
-                    <p><strong><mark>Sign up to recieve exclusive Members Only access!</mark></strong></p>
-                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal">Sign up!</button>
-                <p class="text-muted"><small></small></p>
+    <div class="row no-gutters">
+        <a href="#" class="col-md-4 hero-image"></a>
+        <div class="col-md-8 bg-colour-name-label">
+            <div class="col-heading">
+                <h1 class="label">XYG<br>MusicGroup</h1>
+                <h2 class="name">L.E.X Young General</h2>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="hero-image"></div>
-        </div>
     </div>
-</div>
-<!-- Header -->
+    <div class="row no-gutters">
+        <div class="col-md-6 feel-the-vibe"></div>
+    </div>
 </header>
-<!-- Music -->
-<section class="container-fluid music-section-bg-colour">
-    <div class="row">
-        <div class="col-6 music-header">
-            <h1 class="music-heading">Music</h1>
-            <h2 class="music-heading">Listen In</h2>
-        </div>
-
-    </div>
-</section>
-
-<footer class="container-fluid footer-bg">
-    <div id="footer-details" class="row">
-        <div class="col-sm-4">
-            <h5 class="uppercase general-sub">About</h5>
-            <p class="inline-block">Full Stack Web Developer, Skilled in HTML5, CSS3 and Javascript.
-            Limitless potential for Design and intuitive structural thinking. </p>
-        </div>
-        <div class="col-sm-4">
-            <h5 class="uppercase general-sub">Download</h5>
-            <p class="inline-block">
-                Need a printable version of my CV? Download it here.
-                <a href="assets/CV/sample doc.docx" target="_blank" class="cv-pdf">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                    <span class="sr-only">Download Link</span>
-                </a>
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <h5 class="uppercase general-sub">Social</h5>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a href="www.facebook.com" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true">
-                            <span class="sr-only">Facebook</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://twitter.com/?lang=en-gb" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true">
-                            <span class="sr-only">Twitter</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="www.linkedin.com" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true">
-                            <span class="sr-only">LinkedIn</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.pinterest.co.uk/" target="_blank">
-                        <i class="fa fa-pinterest" aria-hidden="true">
-                            <span class="sr-only">Pinterest</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true">
-                            <span class="sr-only">Instagram</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <i class="fa fa-youtube" aria-hidden="true">
-                            <span class="sr-only">Youtube</span>
-                        </i>
-                    </a>
-                </li>
-            </ul>
+<footer>
+    <div class="row no-gutters">
+        <div class="col-md-4 footer-details">
+            
         </div>
     </div>
-    
-</footer>    
-
-<!-- <div class="modal-body">
-            <form>
-    <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <div class="form-group">
-            <label for="repeatpassword">Repeat Password</label>
-            <input type="password" class="form-control" id="repeatpassword" placeholder="Password">
-    </div>
-    <button type="submit" class="btn btn-success">Submit</button>
-    </form>
-    </div> -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</footer>
 </body>
 </html>
