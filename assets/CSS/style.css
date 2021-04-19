@@ -1,7 +1,31 @@
+/*-----------------------------------------------------------general use style*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
 /*-----------------------------------------------------------Colours*/
 
 .bg-colour-name-label {
     background-color: rgb(49, 49, 49);
+}
+
+#nav-bg-colour {
+    background-color: rgb(49, 49, 49);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*-----------------------------------------------------------Nav*/
+
+#active {
+    background-color: rgb(224, 206, 102);
 }
 
 /*-----------------------------------------------------------Header*/
@@ -38,9 +62,30 @@
 }
 
 .feel-the-vibe {
-    background: url(/IMG/.jpg);
+    background: url(/IMG/Always\ feel\ the\ vibe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
     position: top;
+}
+
+.header-sub {
+    height: 160px;
+    background-color: rgb(48, 71, 18);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 20px;
+}
+
+/*-----------------------------------------------------------Footer*/
+
+.footer-details {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(224, 206, 102);;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: bottom;
 }
